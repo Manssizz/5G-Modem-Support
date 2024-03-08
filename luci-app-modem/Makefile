@@ -20,8 +20,7 @@ LUCI_DEPENDS:=+luci-compat +kmod-usb-net  +kmod-usb-net-cdc-ether +kmod-usb-acm 
 		+kmod-usb-net-cdc-mbim \
 		+usbutils \
 		+kmod-qmi_wwan_q \
-		+kmod-pcie_mhi +pciutils \
-		+quectel-CM-5G \
+		+pciutils \
 		+sms-tool +jq +grep\
 
 define Package/luci-app-modem/conffiles
